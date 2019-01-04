@@ -58,6 +58,7 @@ ctrl+右键：光标右移一个
     更新文档首先需要git:add添加文件
     git:commit 触发git commont -m “”
     
+#使用git进行代码管理
 
 
 
