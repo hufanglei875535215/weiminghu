@@ -1,0 +1,56 @@
+#去除相应的代码框python语言而言
+https://jingyan.baidu.com/article/48b37f8d3b8a9e1a646488f3.html
+#配置anaconda运行环境
+https://blog.csdn.net/zhihaoma/article/details/50917915
+#配置REPL
+https://www.cnblogs.com/haoprogrammer/p/8284908.html
+https://www.cnblogs.com/nx520zj/p/5787393.html
+#配置REPL快捷键
+https://blog.csdn.net/mmmmsunshine/article/details/78780997
+#运行代码快捷键ctr+b
+#调出repl：F5(配置后)
+
+
+#sublimeText快捷键
+f11 切换全屏状态
+ctrl+shift+backspace 左侧全部删除
+shift+up        移动并选择
+shift+down      移动并选择 
+Ctrl+Shift+K    删除整行
+Alt+Shift+2     左右分屏-2列
+Alt+Shift+8     垂直分屏-2屏
+ctrl+K,B        到处文件目录表左侧
+ctrl+tab        切换文件内容
+ctrl+[          向左缩进一个级别
+ctrl+]          向右缩进一个级别
+ctrl+l          选中当前的行
+ctl+enter       从任意位置回车，另起一行在这行之下
+shift+ctrl+enter      在该行之上开辟新的一行
+ctrl+/          注释代码
+shift+ctrl+/    块注释代码
+Ctrl+K+K 从光标处开始删除代码至行尾。
+ctrl+左键：光标左移一个文本单位
+ctrl+右键：光标右移一个
+
+
+安装packages：
+    ctrl+shift+p
+    收入install 安装包
+    然后输入需要安装的相应的包
+    
+多点编辑方式:
+    比如将所有的行都变字符串格式“
+    ctrl+l选中多行
+    crtl+shift+l:切分成行
+    光标放置到行尾end
+    ”
+    光标放置到行首
+    “
+多点编辑相同的文本内容
+    选中文本
+    按住ctrl+d进入多行编辑模式
+    然后使用多文本编辑模式
+
+
+
+
