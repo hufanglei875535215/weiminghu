@@ -9,6 +9,8 @@ https://www.cnblogs.com/nx520zj/p/5787393.html
 https://blog.csdn.net/mmmmsunshine/article/details/78780997
 #运行代码快捷键ctr+b
 #调出repl：F5(配置后)
+配置hive的使用
+https://www.jianshu.com/p/c7eeb8a485e5
 
 
 #sublimeText快捷键
@@ -51,6 +53,11 @@ ctrl+右键：光标右移一个
     按住ctrl+d进入多行编辑模式
     然后使用多文本编辑模式
 
+上传文件到github的内容:
+    具体使用https://www.cnblogs.com/BobGo/p/5998339.html
+    更新文档首先需要git:add添加文件
+    git:commit 触发git commont -m “”
+    
 
 
 
