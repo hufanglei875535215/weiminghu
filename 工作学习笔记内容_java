@@ -1,0 +1,114 @@
+
+// 类名的基本命名规范，首字母大写，方法名第一个单词小写，后面首字母大写
+public class HelloWorld{
+
+	public static void main(String[] args){
+		System.out.println("...");
+		System.out.println(args[0]);
+		System.out.println(args[1])
+	}
+}
+
+
+
+// 静态方法输出System.err.println()
+import java.lang.Math;
+public class RandomBounds{
+	static usage(){
+		System.err.println("error happens");
+		System.extt(1); //System.exit(0)表示正常退出，System.exit(1)表示非正常退出程序
+	}
+	public static void main(String[] args){
+		if(args.length!=1) usage();//静态方法访问静态方法
+		if(args[0].equals("lower")){
+			while(Math.random()!=0.0);
+			System.out.println("Product 0.0");
+		}
+		else if(args[0].equals("upper")){
+			while(Math.random()!=1.0);
+			System.out.println("Product 1.0");
+		}
+		else{
+			useage();
+		}
+	}
+
+}
+
+/**
+4.2.4 默认构建器
+正如早先指出的那样，默认构建器是没有自变量的。它们的作用是创建一个“空对象”。若创建一个没有构
+建器的类，则编译程序会帮我们自动创建一个默认构建器。例如：
+//: DefaultConstructor.java
+class Bird {
+int i;
+}
+public class DefaultConstructor {
+public static void main(String[] args) {
+Bird nc = new Bird(); // default!
+}
+} ///:~
+对于下面这一行：
+new Bird();
+它的作用是新建一个对象，并调用默认构建器——即使尚未明确定义一个象这样的构建器。若没有它，就没
+有方法可以调用，无法构建我们的对象。然而，如果已经定义了一个构建器（无论是否有自变量），编译程
+序都不会帮我们自动合成一个：
+class Bush {
+Bush(int i) {}
+Bush(double d) {}
+}
+现在，假若使用下述代码：
+new Bush();
+编译程序就会报告自己找不到一个相符的构建器。就好象我们没有设置任何构建器，编译程序会说：“你看
+来似乎需要一个构建器，所以让我们给你制造一个吧。”但假如我们写了一个构建器，编译程序就会说：
+“啊，你已写了一个构建器，所以我知道你想干什么；如果你不放置一个默认的，是由于你打算省略它。”
+**/
+
+
+public class Cleaner{
+	private String ss=new String("Cleaners");
+	public void append(String s){
+		ss+=s;
+	}
+	public void dulite(){
+		append("dulite()");
+	}
+	public void apply(){
+		append("apply()");
+	}
+	public void scrud(){
+		append("scrud");
+	}
+	public void print(){
+		dultite();
+		apply();
+		scrud();
+		System.out.println(ss);
+	}
+	public static void main(String[] args){
+		Clearner c=new Clearner();
+		c.print();
+	}
+}
+
+// 继承内容
+public class SonClearn extends Cleaner{
+	// 重写方法
+	public void scrud(){
+		append("Son_Scrud()");
+		super.scrud();
+	}
+	public void reAppend(){
+		append("reAppend()")
+	}
+	public void print(){
+		dultite();
+		apply();
+		scrud();
+		System.out.println(ss);
+	}
+    public static void main(String[] args){
+    	SonClearn sc=new SonClearn();
+    	sc.print();
+    }
+}
